@@ -2,7 +2,7 @@
 applications:
   - name: "Test PHP app"
     random-route: true
-    memory: 64M
+    memory: 128M
     buildpacks: 
       - php_buildpack
     env:
